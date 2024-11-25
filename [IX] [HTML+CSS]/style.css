@@ -1,0 +1,48 @@
+
+
+#main-container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 100px 100px 100px 100px;
+     gap: 5px;
+    
+     
+}
+
+#main-container > div {
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: deeppink;
+}
+#item2{
+    grid-row: 2;
+    grid-row-end: 4;
+    background-color: blueviolet;
+}
+#item3{
+    background-color: crimson;
+}
+#item4{
+    background-color: aqua;
+}
+#item5{
+    background-color: aquamarine;
+}
+#item6{
+    background-color: blue;
+}
+#item7{
+    background-color: crimson;
+}
+#item8{
+    background-color: darkblue;
+}
+#item9{
+    background-color: darkmagenta;
+}
