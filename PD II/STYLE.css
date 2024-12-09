@@ -1,0 +1,27 @@
+#main-container{
+    display: flex;
+}
+
+#side-content{
+       
+        width: 30%
+    }
+
+    #photo-container{
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        
+
+    }
+
+    #photo-container{
+        display: grid;
+        width: 50%;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        
+
+    }
+
+    header { background-color: darkgray;}
+     h3 {background-color: darkgray;}
