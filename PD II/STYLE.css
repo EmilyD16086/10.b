@@ -6,22 +6,22 @@
        
         width: 30%
     }
-
-    #photo-container{
-        display: grid;
-        width: 50%;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        
-
+    #side-content{
+        width: 30%
     }
 
     #photo-container{
-        display: grid;
         width: 50%;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        
-
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
     }
+
 
     header { background-color: darkgray;}
      h3 {background-color: darkgray;}
+
+     footer{
+        background-color: darkgray;
+        text-align: center;
+        padding: 10px;
+     }
