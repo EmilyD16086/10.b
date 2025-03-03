@@ -119,8 +119,4 @@ let number = 2;
     case 7:
         console.log("Decembris")
 
-
-
-
-
  }
