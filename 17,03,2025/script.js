@@ -16,7 +16,7 @@ let masivs = [];
 while(turpinat)
 {
 let user = parseFloat(prompt("Enter number"));
- if(user == NaN)
+ if(user < 0)
  {
     turpinat = false;
  }
