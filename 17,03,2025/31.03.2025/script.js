@@ -34,4 +34,3 @@ cell1.innerHTML = user_name.value;
 cell1.innerHTML = user_surname.value;
 cell1.innerHTML = user_age.value;
 }
-
